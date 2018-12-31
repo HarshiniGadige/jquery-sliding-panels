@@ -1,0 +1,67 @@
+.sp p {
+	font-size: 1em;
+	margin: 0 0 1em 0;
+
+}
+.sp h2 {
+	font-size: 1.15em;
+	margin: 0 0 0.5em 0;
+}
+.sp {
+	width: 500px;
+	float: right;
+	margin: 0 0 10px 25px;
+	position: relative;
+}
+.sp .tabs {
+	position: relative;
+	z-index: 101;
+}
+.sp .tabs span {
+	margin: 0;
+	padding: 8px 12px;
+	display: inline-block;
+	position: relative;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc; 
+	cursor: pointer;
+}
+.sp .tabs span:first-child {
+	padding-left: 15px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top-left-radius: 12px;
+}
+.sp .tabs span:last-child {
+	padding-right: 15px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top-right-radius: 12px;
+}
+.sp .tabs span.selected {
+	color: #999;
+	border-bottom: 1px solid #fff;
+}
+.sp .tabs span {
+	border: 1px solid #ccc;
+}
+.sp .panel_container {
+	background: #fff;
+	position: relative;
+	z-index: 100;
+	overflow: hidden;
+	margin-top: -1px;
+	border: 1px solid #ccc;
+}
+.sp .panel_container .panel .panel_content {
+	padding: 15px;
+}
+.sp .panel_container .panels {
+	position: absolute;
+	top: 0px;
+}
+.sp .panel_container .panel {
+	position: absolute;
+	height: 400px;
+}
